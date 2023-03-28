@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex - Gaming</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .carousel img {
+            max-width: 100%;
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class=" mobile section-tittle navbar-brand m-0 fs-3">
+                <i class="bi bi-controller"></i>
+                Vor<span class="text-colored">tex</span>
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-center" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-cart3"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#manutencao" class="nav-link">
+                            <i class="bi bi-tools"></i>
+                            Manutenção
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link ">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                </ul>
+                    </nav>
+                    <form class="form-inline d-flex justify-content-end">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Pesquisar">
+                </div>
+                <button type="submit" class="btn btn-success ">Buscar</button>
+            </form>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section class="sobre-a-loja" id="sobre-a-loja">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/banner1.jpg" alt="">
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./img/banner2.jpeg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/banner3.jpg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/banner2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container marcas">
+            <h2 class="pt-5 pb-5 fw-bold section-tittle">AS <span class="text-colored">MELHORES</span> MARCAS</h2>
+            <a href="#">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/superframe/logo-superframe.png" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/nvidia/nvidia-logo.jpg" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/asus/asus.jpg" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/amd/amd-logo.jpg" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/corsair/corsair-logo.jpg" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="https://img.terabyteshop.com.br/fabricantes/kingston/_kingston.jpg" class="w-70 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <img src="https://img.terabyteshop.com.br/banner/2118.jpg" class="pt-4 w-100 roundedd" alt="">
+        </div>
+    </section>
+    <section id="produtos" class="pt-4 pb-4">
+        <div class="container">
+            <h2 class="pt-5 pb-2 fw-bold section-tittle">MAIS <span class="text-colored">VENDIDOS</span></h2>
+            <img src="https://img.terabyteshop.com.br/banner/2230.jpg" class="pb-5 consoles">
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-produtos">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#promocoes" class="fw-bold text-start nav-link text-colored active">Promoções</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#headset" class="fw-bold text-start nav-link text-colored ">Headsets</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#monitor" class="fw-bold text-start nav-link text-colored ">Monitores</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#gabinete" class="fw-bold text-start nav-link text-colored ">Gabinetes</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#kit" class="fw-bold text-start nav-link text-colored ">Kit upgrade</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cadeira" class="fw-bold text-start nav-link text-colored ">Cadeiras Gamers</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mouse" class="fw-bold text-start nav-link text-colored ">Mouse</button>
+                    </nav> 
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="promocoes"> <!-- promocoes -->
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/celular.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Smartphone Motorola Moto E22, 32GB, Octa-Core, Câmera Duplo, Tela 6.5", Grafite
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.179,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 769,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">5x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/mesagamer.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mesa Gamer Ninja B15MM, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 669,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 419,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 41,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/monitor.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer SuperFrame Precision Ultra, 23,6 Pol CURVO, Full HD, FreeSync/G-Sync, 1ms, 165Hz, HDMI/DP,
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.179,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 769,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">5x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/mousegamer.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Dazz Fatality, 3500 DPI, 4 Botões, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 79,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 23,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">1x de R$ 28,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/processador-amd.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Processador AMD Ryzen 5 5600G 3.9GHz (4.4GHz Turbo), 6-Cores 12-Threads, Cooler Wraith Stealth, AM4, Com
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.158,58 por:
+                                                <h5> <span class="fw-bold verde">R$ 869,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">5x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white">
+                                            22% OFF
+                                        </div>
+                                        <img src="./img/promocoes/ssd.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                SSD Kingston A400, 240GB, Sata III, Leitura 500MBs Gravação 350MBs, SA400S37/240G
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 289,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 1229,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">4x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="headset"> <!-- headset -->
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/heaset1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Headset Gamer SuperFrame AURA, 7.1 Surround, RGB, USB, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 351,76 por:
+                                                <h5> <span class="fw-bold verde">R$ 129,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">7x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/headset2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Headset Gamer SuperFrame Odin, Drivers De 50mm, 7.1 Surround, USB, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 419,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 149,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 41,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/headset3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Headset Multilaser Office, P3, Stereo, Drivers 40mm, Black, PH373
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 99,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 34,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">2x de R$ 17,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/headset4.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Dazz Fatality, 3500 DPI, 4 Botões, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 79,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 23,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">1x de R$ 28,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/headset5.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Headset Gamer Wireless Marvo HG9088W, RGB, Múltiplas Platarformas, Sem Fio + Bluetooth + 3.5mm, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 469,41 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 189,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">1x de R$ 28,15 sem juro</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/fones de ouvido/headset6.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Headset Gamer Redragon Scylla Lunar White, P2, Múltiplas Plataformas, H901W
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 169,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 109,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">3x de R$ 21,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="monitor"> <!-- monitor -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor.jpeg">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer SuperFrame Precision Ultra, 23,6 Pol CURVO, Full HD, FreeSync/G-Sync, 1ms, 165Hz, HDMI/DP,
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.199,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 849,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 83,32 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer Gigabyte G27FC A, 27 Pol, Curvo, Full HD, 1ms, 165Hz, FreeSync Premium, Altura Ajustável, H
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.588,22 por:
+                                                <h5> <span class="fw-bold verde">R$ 1.399,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 137,16 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer SuperFrame Vision, 23.8 Pol, Full HD, IPS, G-Sync/FreeSync, 1ms, 144Hz, HDMI/DP, SFV2409
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.619,31 por:
+                                                <h5> <span class="fw-bold verde">R$ 999,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 97,94 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor4.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer SuperFrame Precision Ultra, 31.5 Pol, Quad HD, 2.5K, 1ms, HDMI/DP/VGA, SFP3215
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.587,06 por:
+                                                <h5> <span class="fw-bold verde">R$ 1.799,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 176,37 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor5.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer Duex, 24 Pol, Full HD, IPS, 144Hz, 1ms, HDMI/DP, DX240ZG
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.499,90 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 799,90 </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 78,42 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor6.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer Duex, 21,45 Pol, Full HD, 75Hz, 5ms, VA, HDMI/VGA, DX2145PD
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 799,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 529,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 51,95 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/monitores/monitor7.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Monitor Gamer Samsung T350, 22 Pol, Full HD, IPS, HDMI/VGA, LF22T350FHLMZD
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.549,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 739,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 72,54 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="gabinete"> <!--  gabinete -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Gamer SuperFrame Flow, Mid Tower, RGB, Vidro Temperado, ATX, Black, Sem Fonte, Com 3 Fans
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 439,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 199,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">11x de R$ 21,38 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Gamer Montech FIGHTER 500, Mid Tower, Black, ATX, 4 Fans, Vidro Temperado
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 539,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 279,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 27,44 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Gamer SuperFrame Cube, Mid Tower, Vidro Temperado, ATX, Black, Sem Fonte, Sem Fan
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 999,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 549,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 53,91 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete4.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Liketec One RGB, Mid Tower, MATX, Black, Sem Fonte, Sem Fan
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 209,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 99,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">5x de R$ 23,51 sem juros sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete5.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Gamer Gamdias Argus E4 Elite, RGB, Mid Tower, Vidro Temperado, Black, Sem Fonte, Sem Fan
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 342,00 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 239,90 </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 23,52 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/gabinetes/gabinete6.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Gabinete Gamer Gamemax Revolt 3606, RGB, Mid Tower, Vidro Temperado, White, Sem Fonte, Com 3
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 569,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 379,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 37,25 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="kit"> <!-- Kit upgrade -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/kit/kit.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Kit Upgrade Intel Core I5 10400F + Placa Mãe Biostar H510MHP 2.0
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.704,59 por:
+                                                <h5> <span class="fw-bold verde">R$ 1.159,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 113,72 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/kit/kit2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Kit Upgrade Ryzen 3 3200G + Placa Mãe A320 + 8GB DDR4
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.608,24 por:
+                                                <h5> <span class="fw-bold verde">R$ 969,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 95,09 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/kit/kit3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Kit Upgrade Ryzen 3 3200G + Placa Mãe A320
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.327,06 por:
+                                                <h5> <span class="fw-bold verde">R$ 779,99</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 76,47 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/kit/kit4.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Kit Upgrade AMD Ryzen 5 4600G + Placa Mãe A320 + 8GB DDR4
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.409,29 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 1.268,89 </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 124,40 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/kit/kit5.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Kit Upgrade AMD Ryzen 5 4600G + Placa Mãe B450 + 8GB DDR4
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 2.691,64 por:
+                                                <h5> <span class="fw-bold verde">R$ 1.405,31</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 137,78 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="cadeira"> <!-- Cadeiras Gamers -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer PCTop Racer, Reclinável, Preta E Azul, Suporta Até 120KG
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 729,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 499,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 49,01 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer PCTop Racer, Reclinável, Preta E Vermelha, Suporta Até 120KG
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 729,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 499,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 49,01 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer Ninja Edição Especial Madara, Reclinável, 4D, Preto E Laranja
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 949,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 539,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 52,93 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad4.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer Ninja Armor, Reclinável, 4D, Preto, CGN-ARMOR-PP
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.199,90 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 719,00  </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 70,49 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad5.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer SuperFrame Icelord Pro Edition, Reclinável, 4D, Preto E Branco
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.889,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 999,00</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 97,94 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/cadeira/cad6.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Cadeira Gamer Ninja Naja, Reclinável, Branco E Preto
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 1.299,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 699,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 68,62 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="mouse"> <!-- Mouse -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Dazz Fatality, 3500 DPI, 4 Botões, Black
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 79,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 23,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">1x de R$ 28,12 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mousepad Gamer Dazz Lumus, Control, Extra Grande, RGB
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 143,56 por:
+                                                <h5> <span class="fw-bold verde">R$ 39,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">2x de R$ 23,47 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Dazz, Axon, 3200DPI, USB, 6 Botões, 62000032
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 99,90 por:
+                                                <h5> <span class="fw-bold verde">R$ 24,90</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">1x de R$ 29,29 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse4.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Redragon Cobra M711 RGB, 10000 DPI, 7 Botões
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 169,90 por:
+                                                <h5> <span class="fw-bold verde fw-bold">R$ 119,90  </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">7x de R$ 20,15 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse5.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer SuperFrame, BOSS, 10000 DPI, RGB, 7 Botões, Black, Sensor Pixart 3325
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 199,00 por:
+                                                <h5> <span class="fw-bold verde">R$ 99,99</span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">5x de R$ 23,53 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./img/mouses/mouse6.jpg" alt="">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">
+                                                Mouse Gamer Redragon Storm Elite, 16000 DPI, 8 Botões Programáveis, Lunar White, M988W-RGB
+                                            </h6>
+                                            <p class="card-text mt-4">
+                                                De: R$ 263,55 por:
+                                                <h5> <span class="fw-bold verde">R$ 289,00 </span> <span class="fw-bold verde fs-6">à vista</span></h6>
+                                            </p>
+                                            <span class="parcelamento">12x de R$ 28,33 sem juros</span>
+                                            <button type="button" class="btn adc btn-success">Adicionar ao carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="manutencao">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="./img/manutencao/manutencao.jpg" class="d-block w-100 pt-5" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="section-tittle pt-4"> <span class="text-colored">MANUTENÇÃO</span></h2>
+                    <ul>
+                        <li>
+                            Instalação de Sistema Operacional
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Remoção de Vírus</li>
+                    </ul>
+                    <ul>
+                        <li>Manutenção Corretiva e Preventiva de Computadores.</li>
+                    </ul>
+                    <ul>
+                        <li>Conserto de PCs e Notebooks.</li>
+                    </ul>
+                    <ul>
+                        <li>Recuperação dados e fotos de HDs formatados ou danificados.</li>
+                    </ul>
+                    <ul>
+                    </ul>
+                </div>    
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://franctec.com.br/wp-content/uploads/2019/03/restaurar_roteador.jpg" class="pt-4 w-100" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="text-colored section-tittle pt-4">Restauração de roteadores</h2>
+                        <p>
+                            Não consegue acessar seu roteador?
+    
+    Hoje em dia a maioria das pessoas possuem equipamentos portáteis (Notebooks, Laptops, Tablets etc…). E todos eles precisam de um roteador para que fiquem conectados sem depender de cabos de rede.
+    Sem eles não é possível utilizar o wireless (Wi-Fi).
+    Nós vamos restaurar as configurações de fábrica do roteador, e instalar novamente para que uma nova senha seja feita.
+    A solução é simples, porém trabalhosa para pessoas leigas. Além disso vamos tirar todas as suas dúvidas.
+    Basta você ligar, e nós vamos lhe socorrer. E você fica totalmente conectado.
+    
+    Por apenas R$ 130,00 nós vamos até você e resolvemos esse problema.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-tittle text-center text-colored">Contato</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required ></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-tittle fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-media">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored ms-2 me-2"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-tittle fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Joao Urizzi 21, Parque Olimpico, Mogi das cruzes - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="https://www.esportelandia.com.br/wp-content/uploads/2020/12/loja-pra-comprar-pc-gamer-pronto-1536x864.jpg" class="w-100 pt-4 pb-5" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="section-tittle pt-4">SOBRE A<span class="text-colored"> VORTEX</span></h2>
+                    <P>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deserunt.
+                    </P>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, culpa eligendi neque nulla alias illum animi? Vero, tenetur eius. Hic atque neque cumque minima quia ipsa consectetur aliquam asperiores a.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, culpa eligendi neque nulla alias illum animi? Vero, tenetur eius. Hic atque neque cumque minima quia ipsa consectetur aliquam asperiores a.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, culpa eligendi neque nulla alias illum animi? Vero, tenetur eius. Hic atque neque cumque minima quia ipsa consectetur aliquam asperiores a.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #222;">
+        © 2020 Copyright:
+        <a href="#">Vortex.com.br</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
